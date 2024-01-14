@@ -195,4 +195,18 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-export const chosenTheme = blueTheme;
+export const refinedDarkTheme = {
+  body: "#1E1E1E", // Slightly lighter background
+  text: "#FFFFFF", // White text for better contrast
+  expTxtColor: "#FFFFFF", // White text for better contrast
+  highlight: "#2E2E2E", // Slightly lighter highlight
+  dark: "#121212", // Darker background color
+  secondaryText: "#A0A0A0", // Adjusted secondary text color
+  imageHighlight: "#3E3E3E", // Slightly lighter image highlight
+  compImgHighlight: "#CCCCCC", // Adjusted component image highlight
+  jacketColor: "#7F8C8D", // Adjusted jacket color
+  headerColor: "#2C3E50", // Adjusted header color
+  splashBg: "#2E2E2E", // Slightly lighter splash background
+};
+
+export const chosenTheme = refinedDarkTheme;

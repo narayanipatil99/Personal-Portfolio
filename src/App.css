@@ -16,7 +16,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+body.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
 .App-link {
   color: #09d3ac;
 }
